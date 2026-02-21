@@ -1,0 +1,39 @@
+
+> responsibility-site@0.1.0 dev
+> next dev --webpack -p 3001
+
+▲ Next.js 16.1.6 (webpack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.3.11:3001
+
+✓ Starting...
+✓ Ready in 2.9s
+⨯ ./app/page.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/kawakamimusashi/Desktop/responsibility-site/app/page.tsx
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.tsx
+⨯ ./app/page.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/kawakamimusashi/Desktop/responsibility-site/app/page.tsx
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.tsx
+○ Compiling /_not-found ...
+⨯ ./app/page.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from /Users/kawakamimusashi/Desktop/responsibility-site/app/page.tsx
+    1: stream did not contain valid UTF-8
+
+Import trace for requested module:
+./app/page.tsx
+ GET / 500 in 5.5s (compile: 5.3s, render: 199ms)
